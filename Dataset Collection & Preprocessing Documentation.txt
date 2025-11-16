@@ -1,0 +1,17 @@
+For the AI: PriceOptima project, I worked on collecting and cleaning three datasets: retail_store_inventory.csv, popular_ecomm_marketplace-Ecommerce__20231101_20231130_sample (2).csv, and dynamic_pricing.csv.
+
+First, I loaded all three datasets using pandas and printed out the first few rows, their shapes, and their column names to understand the data I was working with.
+
+Next, I took care of missing values. In the inventory dataset, I filled any missing values in the inventory_available column with zero. For the marketplace dataset, I used forward-fill to handle other missing values. In the pricing dataset, I dropped rows that were missing critical fields like price or units sold, if those columns existed.
+
+I then removed duplicate rows in all three datasets to ensure every record was unique.
+
+To make the data types consistent, I converted the date columns to datetime format where present, and made sure that number columns (like price, units sold, inventory available, and competitor price) were all numeric.
+
+I also handled outliers by removing extreme values in price and units sold that were above the 99th percentile in their respective datasets.
+
+After cleaning up the individual files, I tried to merge them together based on columns they had in common, which were usually product_id and date. If those columns weren’t available in all datasets, I continued with the pricing dataset as my main file.
+
+Finally, I saved the result as priceoptima_cleaned.csv, which is now ready for the next steps of the project such as feature engineering and modeling.
+
+This process makes sure the data is complete, clean, and in good shape for building dynamic pricing models.
