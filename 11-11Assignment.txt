@@ -1,0 +1,10 @@
+1. Created a basic pandas DataFrame.
+2. Filtered rows based on condition (Age > 30).
+3. Added a new column indicating whether a person passed based on Score.
+4. Used groupby and aggregation to find mean, max, and count by Passed status.
+5. Merged two DataFrames based on Name.
+6. Created a pivot table to show average Score per Country.
+7. Applied a custom function to categorize Age.
+8. Handled missing data by replacing NaN values in Country.
+9. Plotted Score by Name and saved the plot as a PNG file.
+10. Saved the final DataFrame to CSV.
