@@ -1,0 +1,6 @@
+I selected three datasets for the AI: PriceOptima project:
+1. retail_store_inventory.csv – Contains store-level product inventory and transactions, supporting features like inventory health and stock-based dynamic pricing.
+2. popular_ecomm_marketplace-Ecommerce__20231101_20231130_sample.csv – Aggregates sales, pricing, and promotional data from a major e-commerce marketplace, perfect for assessing demand elasticity and competitor price indexes.
+3. dynamic_pricing.csv – Includes historical pricing events, competitor prices, and sales, allowing for direct training, evaluation, and simulation of pricing models.
+
+Each dataset covers different aspects essential for dynamic pricing: inventory management, sales dynamics, and competitive pricing. They enable comprehensive feature engineering, effective ML model training, and full realization of our AI: PriceOptima workflow for revenue optimization.
